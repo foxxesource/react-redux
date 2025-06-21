@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h1>Count : {count}</h1>
+      <h1>Count React: {count}</h1>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
     </>
